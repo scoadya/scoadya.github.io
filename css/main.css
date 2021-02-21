@@ -51,10 +51,11 @@ body {
 .ww-nav-bar .heart {
   fill: #f26147;
   position: relative;
-  top: 2px;
-  width: 40px;
-  -webkit-animation: pulse 1s ease infinite;
-          animation: pulse 1s ease infinite; }
+  top: 4px;
+  width: 60px;
+  -webkit-animation: pulse 2s ease infinite;
+          animation: pulse 2s ease infinite; 
+        }
 
 @-webkit-keyframes pulse {
   0% {
