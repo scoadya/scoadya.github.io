@@ -25,6 +25,8 @@
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
     <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet">
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/styles?ver=1.1.0" rel="stylesheet">
+
     <script src="https://use.fontawesome.com/0edcbf2a5d.js"></script>
  Edit options for embed code 0edcbf2a5d
     <noscript>
@@ -77,7 +79,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="mt-3"><img class="img-fluid" src="images/bride.jpg" alt="Bride" data-aos="flip-right" data-aos-duration="1000"/>
+        <div class="mt-3"><img width="540" height="540" src="images/bride.jpg" alt="Bride" data-aos="flip-right" data-aos-duration="1000"/>
           <h3 class="h2 ww-title">Emily</h3>
           <div class="ww-social-links"><a class="btn btn-link" href="https://www.facebook.com/emily.shell.31"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a class="btn btn-link" href="https://www.instagram.com/emilyannmarie__/"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
         </div>
@@ -209,12 +211,16 @@
   </div>
 </div>
 
-<div class="ww-section bg-light" id="gallery">
+<div class="ww-section bg-light" id="registry">
   <div class="ww-registry">
     <div class="container">
+
+
       <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Registry</h2>
-      <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="100"><a href="https://www.amazon.com/wedding/share/sean-and-emily-coady"><i span class="fab fa-amazon"></i></a>  Amazon</h2>
-      <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="100"><a href="https://registry.theknot.com/emily-shell-sean-coady-april-2022-or/44739390"><i class="fas fa-plane"></i><i class="fas fa-umbrella-beach"></i></a>  Honeymoon Fund</h2>
+      <h4 class="text-center ww-registry" ><a href="https://www.amazon.com/wedding/share/sean-and-emily-coady"><i span class="fab fa-amazon fa-black"></i> Amazon</a></h2>
+      <h4 class="text-center" ><a href="https://registry.theknot.com/emily-shell-sean-coady-april-2022-or/44739390" ><i class="fas fa-plane fa-black"></i><i class="fas fa-umbrella-beach"></i> Honeymoon Fund</a></h3>
+
+
     </div>   
       </div>
     </div>
@@ -271,14 +277,14 @@
             <div class="row">
               <div class="col">
                 <div class="form-group">
-                  <label for="message-input">Your Message</label>
-                  <textarea class="form-control" id="message-input" name="message" rows="4"></textarea>
+                  <label for="message-input" style="font-weight: bolder">Your Message</label>
+                  <textarea required readonly class="form-control" id="message-input" name="message" rows="4" style="outline-color:black !important" style="font-weight: bolder" ></textarea>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col text-center">
-                <button class="btn btn-primary btn-submit" type="submit">Send</button>
+                <button disabled class="btn btn-primary btn-submit" type="submit">Send</button>
               </div>
             </div>
           </form>

@@ -82,6 +82,14 @@ body {
   list-style: none;
   padding-left: 0; }
 
+/* Registry Style */
+.ww-registry a {
+    color: black;
+    text-decoration: underline; 
+}
+.ww-photo-gallery ul {
+  color: #000;
+}
 /* Couple Friends Style  */
 .ww-couple-friends .carousel {
   padding: 40px 0; }
@@ -124,9 +132,13 @@ body {
 .ww-rsvp-detail {
   background: url("../images/rsvp-img.jpg") no-repeat center center;
   background-size: cover;
-  min-height: 500px;
-  position: relative; }
+  height: 1080px;
+}
   .ww-rsvp-detail .ww-rsvp-form {
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;    
+    padding-top: 15%;
     padding-left: 20%; }
     @media (max-width: 768px) {
       .ww-rsvp-detail .ww-rsvp-form {
@@ -135,22 +147,29 @@ body {
       .ww-rsvp-detail .ww-rsvp-form {
         padding-left: 0%; } }
     .ww-rsvp-detail .ww-rsvp-form .form-control {
-      background-color: rgba(222, 222, 222, 0.2);
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.6); }
+      /*background-color: black;*/
+      opacity: 1;
+      border: 3px solid rgba(255, 255, 255, 0.6); }
     .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
-      color: #dedede; }
+      text-emphasis: bolder;
+      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      color: black; }
     .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
-      color: #dedede; }
+      text-emphasis: bolder;
+      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      color: black; }
     .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
-      color: #dedede; }
+      text-emphasis: bolder;
+      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      color: black; }
     .ww-rsvp-detail .ww-rsvp-form select.form-control option {
-      background: rgba(0, 0, 0, 0.3);
-      color: #fff; }
+      text-emphasis: bolder;
+      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      color: black; }
     .ww-rsvp-detail .ww-rsvp-form .btn-submit {
       background-color: rgba(245, 138, 119, 0.8);
       padding: 0.45rem 1.5rem;
-      border: 0; }
+      border: 1; }
 
 .ww-rsvp-detail:before {
   content: "";
