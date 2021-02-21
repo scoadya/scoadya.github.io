@@ -132,8 +132,8 @@ body {
 .ww-rsvp-detail {
   background: url("../images/rsvp-img.jpg") no-repeat center center;
   background-size: cover;
-  height: 1080px;
-}
+  min-height: 500px;
+  position: relative; }
   .ww-rsvp-detail .ww-rsvp-form {
     font-weight: bolder;
     color: whitesmoke;
@@ -149,22 +149,18 @@ body {
     .ww-rsvp-detail .ww-rsvp-form .form-control {
       /*background-color: black;*/
       opacity: 1;
-      border: 3px solid rgba(255, 255, 255, 0.6); }
+      border: 1px solid rgba(255, 255, 255, 0.6); }
     .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
-      text-emphasis: bolder;
-      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      text-emphasis: bold;
       color: black; }
     .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
-      text-emphasis: bolder;
-      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      text-emphasis: bold;
       color: black; }
     .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
-      text-emphasis: bolder;
-      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      text-emphasis: bold;
       color: black; }
     .ww-rsvp-detail .ww-rsvp-form select.form-control option {
-      text-emphasis: bolder;
-      text-shadow: 0 0 0px white, 0 0 1px white, 0 0 0px white, 0 0 0px white;  
+      text-emphasis: bold;
       color: black; }
     .ww-rsvp-detail .ww-rsvp-form .btn-submit {
       background-color: rgba(245, 138, 119, 0.8);
